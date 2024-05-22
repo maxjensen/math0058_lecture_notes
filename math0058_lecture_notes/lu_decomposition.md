@@ -238,7 +238,7 @@ solve for $y_1$, then for $y_2$, etc. The algorithm is very similar to the trian
 just have to proceed from the first entry to the last entry of
 $y$ since the matrix is now lower triangular. Moreover, since all diagonal entries are $1$ we do not need to divide by $L_{ii}$.
 
-We then solve $Ux=b$ by backward substitution.
+We then solve $Ux=y$ by backward substitution.
 
 ## Cost of the LU Decomposition
 
